@@ -8,6 +8,7 @@ public class CircleRunner {
         // C. BEFORE running this code, PREDICT what gets printed
         // I PREDICT 78.5 WILL GET PRINTED
         // D. run the code and confirm your prediction! Were you correct?
+        // YES
     }
 }
 
