@@ -10,6 +10,8 @@ public class ChatBotRunner {
         bot1.greeting(userName);
         System.out.println("Oh, talking with me will help you surely feel even better!");
 
+        bot1.disclaimer();
+
         System.out.print(userName + ", do you want to know about the weather today? Type y for yes and n for no: ");
         String weatherConfirm = scan.nextLine();
         if(weatherConfirm == "y"){
@@ -17,6 +19,8 @@ public class ChatBotRunner {
         } else {
             bot1.weather();
         }
+
+        System.out.println(bot1.skills());
 
         System.out.print(userName + ", one of the things I can do is become a feet to meter calculator! Give me a number of feet to convert: ");
         int userFeet = scan.nextInt();

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class ChatBot {
 
     // instance variables
@@ -16,10 +17,21 @@ public class ChatBot {
         System.out.print("and I am a chat bot! How are you today? ");
     }
 
+    // disclaimer for debbie's attitude because he talks a lot ;)
+    public void disclaimer() {
+        System.out.println("Sorry if I interrupt you sometimes (•_•)");
+        System.out.println("I just like to talk a lot ༼ つ ◕_◕ ༽つ");
+    }
+
     // method that prints the weather
     public void weather() {
         System.out.println("I actually don't know much about the weather! Ha ha!");
         System.out.println("But I know it's warm and dry inside a computer! Ha ha!");
+    }
+
+    // debbie introducing his skills
+    public String skills() {
+        return "Now, onto my skills 😋";
     }
 
     // method that converts feet to meters and returns the meters
