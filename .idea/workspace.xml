@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab1e0a85-2a1c-4fe7-89fe-c276f2fb755e" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/ChatBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatBotRunner.java" afterDir="false" />
+    <list default="true" id="ab1e0a85-2a1c-4fe7-89fe-c276f2fb755e" name="Changes" comment="working...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatBotRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatBotRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RectangleRunner">
+  <component name="RunManager" selected="Application.ChatBotRunner">
+    <configuration name="ChatBotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatBotRunner" />
+      <module name="SenayU2T1Lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CircleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleRunner" />
       <module name="SenayU2T1Lab2" />
@@ -57,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatBotRunner" />
         <item itemvalue="Application.RectangleRunner" />
         <item itemvalue="Application.CircleRunner" />
       </list>
@@ -92,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664713179733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working...">
+      <created>1664714123471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664714123471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="working..." />
+    <option name="LAST_COMMIT_MESSAGE" value="working..." />
   </component>
 </project>

@@ -13,7 +13,7 @@ public class ChatBot {
     // method that prints a greeting
     public void greeting(String yourName) {
         System.out.println("Hello, " + yourName + " my name is " + name); // name is an instance variable
-        System.out.println("and I am a chat bot! How are you today?");
+        System.out.print("and I am a chat bot! How are you today? ");
     }
 
     // method that prints the weather
